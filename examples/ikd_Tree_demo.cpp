@@ -4,12 +4,13 @@
     Email: yixicai@connect.hku.hk
 */
 
-#include <ikd_Tree.h>
+#include <ikd_Tree.hpp>
 #include <stdio.h>
 #include <stdlib.h>
 #include <random>
 #include <algorithm>
 
+template class KD_TREE<ikdTree_PointType>;
 using PointType = ikdTree_PointType;
 using PointVector = KD_TREE<PointType>::PointVector;
 

@@ -4,7 +4,7 @@
 */
 
 
-#include "ikd_Tree.h"
+#include "ikd_Tree.hpp"
 #include <stdio.h>
 #include <stdlib.h>
 #include <random>
@@ -15,6 +15,7 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/visualization/pcl_visualizer.h>
 
+template class KD_TREE<pcl::PointXYZ>;
 using PointType = pcl::PointXYZ;
 using PointVector = KD_TREE<PointType>::PointVector;
 
