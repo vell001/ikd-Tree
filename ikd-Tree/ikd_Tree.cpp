@@ -1444,6 +1444,3 @@ int MANUAL_Q<T>::size(){
 }
 
 template class KD_TREE<ikdTree_PointType>;
-template class KD_TREE<pcl::PointXYZ>;
-template class KD_TREE<pcl::PointXYZI>;
-template class KD_TREE<pcl::PointXYZINormal>;
